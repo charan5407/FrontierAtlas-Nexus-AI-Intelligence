@@ -506,24 +506,19 @@ elif nav == "🌐 Data Provenance & Registry":
     source_cat = st.selectbox("Select Entity Category to Inspect:", ["Startups", "Products", "Research Papers", "AI Jobs", "AI News"])
 
     if source_cat == "Startups" and not df_startups.empty:
-        df_disp = df_startups[["content.entityName", "source.name", "source.url", "content.data.employeeCount", "collectedAt", "validation_status"]].copy()
-        st.dataframe(df_disp, use_container_width=True)
+        st.dataframe(df_startups, use_container_width=True)
 
     elif source_cat == "Products" and not df_products.empty:
-        df_disp = df_products[["content.productName", "content.startupName", "content.pricingModel", "source.name", "source.url", "collectedAt", "validation_status"]].copy()
-        st.dataframe(df_disp, use_container_width=True)
+        st.dataframe(df_products, use_container_width=True)
 
     elif source_cat == "Research Papers" and not df_papers.empty:
-        df_disp = df_papers[["content.title", "content.authors", "content.github_stars", "content.paper_url", "content.github_url", "content.published_date"]].copy()
-        st.dataframe(df_disp, use_container_width=True)
+        st.dataframe(df_papers, use_container_width=True)
 
     elif source_cat == "AI Jobs" and not df_jobs.empty:
-        df_disp = df_jobs[["content.job_title", "content.company", "content.role_family", "content.is_remote", "content.date", "content.job_url"]].copy()
-        st.dataframe(df_disp, use_container_width=True)
+        st.dataframe(df_jobs, use_container_width=True)
 
     elif source_cat == "AI News" and not df_news.empty:
-        df_disp = df_news[["content.title", "source.name", "source.url", "content.published_date", "content.freshness_hours_old"]].copy()
-        st.dataframe(df_disp, use_container_width=True)
+        st.dataframe(df_news, use_container_width=True)
 
 
 # ==========================================
@@ -731,11 +726,8 @@ elif nav == "⏱️ 24-Hour Freshness Radar":
                         <span style="font-weight:700; color:#38BDF8;">{row.get('content.company', 'Company')}</span>
                         {remote_badge}
                     </div>
-                    <div style="font-weight:600; font-size:0.95rem; margin-top:6px;">{row.get('content.job_title', 'Role')}</div>
-                    <div style="font-size:0.75rem; color:#94A3B8; margin-top:4px;">Role Family: {row.get('content.role_family', 'Engineering')} &bull; Date: {row.get('content.date', '')}</div>
-                    <div style="margin-top:6px;">
-                        <a href="{row.get('content.job_url', '#')}" target="_blank" style="color:#34D399; font-size:0.8rem; text-decoration:none;">View Job Posting &rarr;</a>
-                    </div>
+                    <div style="font-weight:600; font-size:0.95rem; margin-top:6px;">Role Family: {row.get('content.role_family', 'Engineering')}</div>
+                    <div style="font-size:0.75rem; color:#94A3B8; margin-top:4px;">Date: {row.get('content.date', '')} &bull; Schema: {row.get('schemaVersion', '1.0')}</div>
                 </div>
                 """, unsafe_allow_html=True)
 
@@ -1014,14 +1006,13 @@ elif nav == "📑 Google Sheets 6-Tab Explorer":
         st.dataframe(df_mapping, use_container_width=True)
 
     st.markdown("---")
-    st.subheader("Google Sheets 30-Second Import Guide")
+    st.subheader("Google Sheets 30-Second Cloud Import Guide")
     st.markdown("""
     1. Navigate to **[sheets.new](https://sheets.new)** in your browser.
     2. Click **File** &rarr; **Import** &rarr; **Upload**.
     3. Upload the pre-formatted multi-tab workbook: `data/exports/FrontierAtlas_Data_Output.xlsx`.
     4. Choose **Replace spreadsheet** and click **Import data**.
-    5. Click **Share** (top right) &rarr; Set to **Anyone with the link can view** &rarr; Copy link.
-    6. Paste into your official assessment submission form: **[https://forms.gle/3JJhukomumTFueRW7](https://forms.gle/3JJhukomumTFueRW7)**
+    5. Click **Share** (top right) &rarr; Set to **Anyone with the link can view** to share the live 6-tab workbook.
     """)
 
 

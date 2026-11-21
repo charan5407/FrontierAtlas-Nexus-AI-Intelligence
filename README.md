@@ -251,17 +251,15 @@ pytest tests/
 
 ---
 
-## Google Sheets Submission Instructions
+## Google Sheets Multi-Tab Export Guide
 
-To submit your Data Output via a public Google Sheet link:
+To view or share the Data Output via Google Sheets:
 1. Open **[Google Sheets](https://sheets.new)** in your browser.
 2. Click **File** $\rightarrow$ **Import** $\rightarrow$ **Upload**.
 3. Select `data/exports/FrontierAtlas_Data_Output.xlsx` from this repository.
 4. Select **Replace spreadsheet** and click **Import data**.
 5. All 6 tabs (**Startups**, **Products**, **Research Papers**, **Jobs**, **News**, **Entity Mapping Log**) will populate with headers and formatting.
-6. Click **Share** (top right) $\rightarrow$ Change General Access to **"Anyone with the link can view"**.
-7. Copy the link and paste it into the official submission form:
-   👉 **[https://forms.gle/3JJhukomumTFueRW7](https://forms.gle/3JJhukomumTFueRW7)**
+6. Click **Share** (top right) $\rightarrow$ Change General Access to **"Anyone with the link can view"** to share the live multi-tab workbook.
 
 ---
 
@@ -296,7 +294,6 @@ To submit your Data Output via a public Google Sheet link:
     "url": "https://cursor.com/products/cursor-ide"
   },
   "content": {
-    "productName": "Cursor IDE",
     "startupName": "Cursor",
     "pricingModel": "FREEMIUM"
   },
@@ -326,12 +323,10 @@ To submit your Data Output via a public Google Sheet link:
   "schemaVersion": "1.0",
   "recordType": "JOB",
   "content": {
-    "job_title": "Founding AI Agent Architect",
     "company": "Cursor",
     "date": "2026-11-20T23:19:45.274Z",
     "is_remote": true,
-    "role_family": "Engineering",
-    "job_url": "https://cursor.com/careers/agent-architect"
+    "role_family": "Engineering"
   }
 }
 ```
@@ -347,9 +342,8 @@ To submit your Data Output via a public Google Sheet link:
   },
   "content": {
     "title": "OpenAI Unveils Advanced Reasoning Benchmarks for Frontier Models",
-    "full_text": "Full investigative coverage on next-generation reasoning...",
     "published_date": "2026-11-21T03:19:44.746Z",
-    "freshness_hours_old": 2.5
+    "full_text": "Full investigative coverage on next-generation reasoning..."
   }
 }
 ```
