@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "startups": 1010,
+    "products": 1010,
+    "research_papers": 1010,
+    "jobs": 12,
+    "news": 11,
+    "entity_mapping_log": 1112
+  },
+  "exported_at": "2026-11-21T05:50:13.197005+00:00",
+  "xlsx_path": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Graphone_AI_Intelligence\\data\\exports\\FrontierAtlas_Data_Output.xlsx",
+  "csv_paths": {
+    "Startups": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Graphone_AI_Intelligence\\data\\exports\\startups.csv",
+    "Products": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Graphone_AI_Intelligence\\data\\exports\\products.csv",
+    "Research Papers": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Graphone_AI_Intelligence\\data\\exports\\research_papers.csv",
+    "Jobs": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Graphone_AI_Intelligence\\data\\exports\\jobs.csv",
+    "News": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Graphone_AI_Intelligence\\data\\exports\\news.csv",
+    "Entity Mapping Log": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Graphone_AI_Intelligence\\data\\exports\\entity_mapping_log.csv"
+  }
+}

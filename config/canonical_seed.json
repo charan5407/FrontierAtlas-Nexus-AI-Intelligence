@@ -1,0 +1,420 @@
+{
+  "entities": [
+    {
+      "canonical_name": "OpenAI",
+      "aliases": ["OpenAI, Inc.", "Open AI", "OpenAI LLC", "OpenAI Global LLC", "OpenAI OpCo"],
+      "domains": ["openai.com"],
+      "primary_products": ["ChatGPT", "GPT-4o", "DALL-E", "Sora", "Whisper", "Codex"],
+      "founded_year": 2015,
+      "employee_count": 1800
+    },
+    {
+      "canonical_name": "Anthropic",
+      "aliases": ["Anthropic, PBC", "Anthropic AI", "Anthropic PBC", "Anthropic Inc."],
+      "domains": ["anthropic.com"],
+      "primary_products": ["Claude", "Claude 3.5 Sonnet", "Claude 3 Opus", "Claude Enterprise"],
+      "founded_year": 2021,
+      "employee_count": 550
+    },
+    {
+      "canonical_name": "Mistral AI",
+      "aliases": ["Mistral", "Mistral AI SAS", "Mistral.ai", "Mistral AI Corp"],
+      "domains": ["mistral.ai"],
+      "primary_products": ["Mistral Large", "Mistral Small", "Codestral", "Le Chat", "Pixtral"],
+      "founded_year": 2023,
+      "employee_count": 120
+    },
+    {
+      "canonical_name": "Hugging Face",
+      "aliases": ["HuggingFace", "Hugging Face, Inc.", "Hugging Face Inc", "Huggingface.co"],
+      "domains": ["huggingface.co"],
+      "primary_products": ["Transformers", "Hugging Face Hub", "Datasets", "Spaces", "Inference Endpoints"],
+      "founded_year": 2016,
+      "employee_count": 350
+    },
+    {
+      "canonical_name": "Perplexity AI",
+      "aliases": ["Perplexity", "Perplexity, Inc.", "Perplexity AI Inc.", "Perplexity.ai"],
+      "domains": ["perplexity.ai"],
+      "primary_products": ["Perplexity Pro", "Perplexity Enterprise", "Sonar"],
+      "founded_year": 2022,
+      "employee_count": 110
+    },
+    {
+      "canonical_name": "Cohere",
+      "aliases": ["Cohere Inc.", "Cohere AI", "Cohere Technologies Inc."],
+      "domains": ["cohere.com"],
+      "primary_products": ["Command R+", "Command R", "Embed", "Rerank"],
+      "founded_year": 2019,
+      "employee_count": 400
+    },
+    {
+      "canonical_name": "Scale AI",
+      "aliases": ["Scale", "Scale AI, Inc.", "Scale, Inc.", "Scale Labs"],
+      "domains": ["scale.com"],
+      "primary_products": ["Scale Data Engine", "Scale GenAI Platform", "Donovan"],
+      "founded_year": 2016,
+      "employee_count": 1200
+    },
+    {
+      "canonical_name": "Stability AI",
+      "aliases": ["Stability AI Ltd", "Stability.ai", "Stability AI Ltd.", "Stability AI Inc"],
+      "domains": ["stability.ai"],
+      "primary_products": ["Stable Diffusion 3.5", "Stable Video", "Stable Audio"],
+      "founded_year": 2019,
+      "employee_count": 200
+    },
+    {
+      "canonical_name": "Midjourney",
+      "aliases": ["Midjourney, Inc.", "Midjourney Inc.", "Midjourney AI"],
+      "domains": ["midjourney.com"],
+      "primary_products": ["Midjourney v6", "Midjourney Web Editor"],
+      "founded_year": 2021,
+      "employee_count": 100
+    },
+    {
+      "canonical_name": "xAI",
+      "aliases": ["xAI Corp", "x.ai", "xAI LLC", "X.AI Corp."],
+      "domains": ["x.ai"],
+      "primary_products": ["Grok", "Grok-2", "Grok Vision"],
+      "founded_year": 2023,
+      "employee_count": 150
+    },
+    {
+      "canonical_name": "Runway",
+      "aliases": ["Runway AI", "Runway AI, Inc.", "RunwayML", "Runway Gen-3"],
+      "domains": ["runwayml.com"],
+      "primary_products": ["Gen-3 Alpha", "Gen-2", "Runway Studios"],
+      "founded_year": 2018,
+      "employee_count": 160
+    },
+    {
+      "canonical_name": "ElevenLabs",
+      "aliases": ["ElevenLabs Inc.", "Eleven Labs", "ElevenLabs AI"],
+      "domains": ["elevenlabs.io"],
+      "primary_products": ["Voice Design", "Voice Isolator", "Conversational AI", "Dubbing Studio"],
+      "founded_year": 2022,
+      "employee_count": 140
+    },
+    {
+      "canonical_name": "Cursor",
+      "aliases": ["Anysphere", "Anysphere, Inc.", "Cursor AI", "Cursor Editor"],
+      "domains": ["cursor.com", "anysphere.inc"],
+      "primary_products": ["Cursor IDE", "Cursor Composer", "Tab Autocomplete"],
+      "founded_year": 2022,
+      "employee_count": 60
+    },
+    {
+      "canonical_name": "Character.AI",
+      "aliases": ["Character Technologies Inc.", "c.ai", "Character AI", "Character.ai Inc."],
+      "domains": ["character.ai"],
+      "primary_products": ["Character.ai Chat", "Character Voices", "Group Chat"],
+      "founded_year": 2021,
+      "employee_count": 130
+    },
+    {
+      "canonical_name": "Glean",
+      "aliases": ["Glean Technologies, Inc.", "Glean Work AI", "Glean Search"],
+      "domains": ["glean.com"],
+      "primary_products": ["Glean Enterprise Search", "Glean Assistant", "Glean Work AI"],
+      "founded_year": 2019,
+      "employee_count": 650
+    },
+    {
+      "canonical_name": "Pinecone",
+      "aliases": ["Pinecone Systems Inc.", "Pinecone Systems, Inc.", "Pinecone Vector Database"],
+      "domains": ["pinecone.io"],
+      "primary_products": ["Pinecone Serverless", "Pinecone Pod-based Index", "Pinecone Inference"],
+      "founded_year": 2019,
+      "employee_count": 210
+    },
+    {
+      "canonical_name": "Qdrant",
+      "aliases": ["Qdrant Solutions GmbH", "Qdrant Vector DB", "Qdrant Cloud"],
+      "domains": ["qdrant.tech"],
+      "primary_products": ["Qdrant Cloud", "Qdrant Open Source", "Qdrant Hybrid Search"],
+      "founded_year": 2021,
+      "employee_count": 75
+    },
+    {
+      "canonical_name": "Weaviate",
+      "aliases": ["Weaviate B.V.", "Weaviate Inc.", "Weaviate Vector Database"],
+      "domains": ["weaviate.io"],
+      "primary_products": ["Weaviate Cloud Services", "Weaviate Verba", "Weaviate Core"],
+      "founded_year": 2019,
+      "employee_count": 90
+    },
+    {
+      "canonical_name": "LangChain",
+      "aliases": ["LangChain, Inc.", "LangChain Inc", "LangChain AI"],
+      "domains": ["langchain.com"],
+      "primary_products": ["LangChain Core", "LangSmith", "LangGraph"],
+      "founded_year": 2022,
+      "employee_count": 80
+    },
+    {
+      "canonical_name": "LlamaIndex",
+      "aliases": ["LlamaIndex, Inc.", "LlamaIndex Inc.", "RunLlama", "GPT Index"],
+      "domains": ["llamaindex.ai"],
+      "primary_products": ["LlamaCloud", "LlamaParse", "LlamaIndex Core"],
+      "founded_year": 2022,
+      "employee_count": 45
+    },
+    {
+      "canonical_name": "Together AI",
+      "aliases": ["Together, Inc.", "Together AI Inc.", "Together Compute"],
+      "domains": ["together.ai"],
+      "primary_products": ["Together Inference Engine", "Together Fine-Tuning", "Together GPU Clusters"],
+      "founded_year": 2022,
+      "employee_count": 120
+    },
+    {
+      "canonical_name": "Fireworks AI",
+      "aliases": ["Fireworks.ai", "Fireworks AI, Inc."],
+      "domains": ["fireworks.ai"],
+      "primary_products": ["Fireworks GenAI Platform", "Function Calling Platform"],
+      "founded_year": 2022,
+      "employee_count": 55
+    },
+    {
+      "canonical_name": "Replicate",
+      "aliases": ["Replicate, Inc.", "Replicate Inc.", "replicate.com"],
+      "domains": ["replicate.com"],
+      "primary_products": ["Replicate API", "Cog Container Tool"],
+      "founded_year": 2019,
+      "employee_count": 70
+    },
+    {
+      "canonical_name": "Groq",
+      "aliases": ["Groq, Inc.", "Groq Inc.", "GroqCloud", "Groq LPU"],
+      "domains": ["groq.com"],
+      "primary_products": ["LPU Inference Engine", "GroqCloud API"],
+      "founded_year": 2016,
+      "employee_count": 320
+    },
+    {
+      "canonical_name": "Cerebras Systems",
+      "aliases": ["Cerebras", "Cerebras Systems, Inc.", "Cerebras AI"],
+      "domains": ["cerebras.net"],
+      "primary_products": ["CS-3 Wafer-Scale System", "Cerebras Inference"],
+      "founded_year": 2015,
+      "employee_count": 480
+    },
+    {
+      "canonical_name": "Harvey AI",
+      "aliases": ["Harvey", "Harvey Technologies Inc.", "Harvey AI, Inc."],
+      "domains": ["harvey.ai"],
+      "primary_products": ["Harvey Legal AI Platform", "Harvey Contract Analysis"],
+      "founded_year": 2022,
+      "employee_count": 110
+    },
+    {
+      "canonical_name": "Synthesia",
+      "aliases": ["Synthesia Ltd", "Synthesia AI", "Synthesia, Inc."],
+      "domains": ["synthesia.io"],
+      "primary_products": ["Synthesia Video Creator", "AI Avatars", "Expressive Avatars"],
+      "founded_year": 2017,
+      "employee_count": 360
+    },
+    {
+      "canonical_name": "Deepgram",
+      "aliases": ["Deepgram, Inc.", "Deepgram Inc.", "Deepgram Speech AI"],
+      "domains": ["deepgram.com"],
+      "primary_products": ["Nova-2 Speech-to-Text", "Aura Text-to-Speech", "Voice Agent API"],
+      "founded_year": 2015,
+      "employee_count": 190
+    },
+    {
+      "canonical_name": "Jasper AI",
+      "aliases": ["Jasper", "Jasper.ai", "Jasper, Inc.", "Jasper AI Inc."],
+      "domains": ["jasper.ai"],
+      "primary_products": ["Jasper App", "Jasper Brand Voice", "Jasper Studio"],
+      "founded_year": 2021,
+      "employee_count": 220
+    },
+    {
+      "canonical_name": "Writer",
+      "aliases": ["Writer, Inc.", "Writer Inc.", "Writer AI", "Qordoba"],
+      "domains": ["writer.com"],
+      "primary_products": ["Palmyra Models", "Writer Knowledge Graph", "Writer AI Studio"],
+      "founded_year": 2020,
+      "employee_count": 230
+    },
+    {
+      "canonical_name": "Inflection AI",
+      "aliases": ["Inflection", "Inflection AI, Inc.", "Inflection AI Inc."],
+      "domains": ["inflection.ai"],
+      "primary_products": ["Pi Assistant", "Inflection 2.5"],
+      "founded_year": 2022,
+      "employee_count": 80
+    },
+    {
+      "canonical_name": "Databricks",
+      "aliases": ["Databricks, Inc.", "Databricks Inc.", "MosaicML"],
+      "domains": ["databricks.com"],
+      "primary_products": ["Data Intelligence Platform", "DBRX", "Mosaic AI", "Unity Catalog"],
+      "founded_year": 2013,
+      "employee_count": 6500
+    },
+    {
+      "canonical_name": "Dataiku",
+      "aliases": ["Dataiku Inc.", "Dataiku, Inc.", "Dataiku DSS"],
+      "domains": ["dataiku.com"],
+      "primary_products": ["Dataiku Everyday AI Platform", "LLM Mesh"],
+      "founded_year": 2013,
+      "employee_count": 1300
+    },
+    {
+      "canonical_name": "SambaNova Systems",
+      "aliases": ["SambaNova", "SambaNova Systems, Inc."],
+      "domains": ["sambanova.ai"],
+      "primary_products": ["SN40L Chip", "SambaStudio", "SambaNova Cloud"],
+      "founded_year": 2017,
+      "employee_count": 500
+    },
+    {
+      "canonical_name": "HeyGen",
+      "aliases": ["HeyGen Inc.", "HeyGen AI", "Movio"],
+      "domains": ["heygen.com"],
+      "primary_products": ["HeyGen Video Generator", "Interactive Avatar", "Video Translation"],
+      "founded_year": 2020,
+      "employee_count": 110
+    },
+    {
+      "canonical_name": "Pika",
+      "aliases": ["Pika Labs", "Pika Labs, Inc.", "Pika AI", "Pika Art"],
+      "domains": ["pika.art"],
+      "primary_products": ["Pika 1.5", "Pikaffects", "Pika Lip Sync"],
+      "founded_year": 2023,
+      "employee_count": 40
+    },
+    {
+      "canonical_name": "Suno",
+      "aliases": ["Suno, Inc.", "Suno Inc.", "Suno AI"],
+      "domains": ["suno.com", "suno.ai"],
+      "primary_products": ["Suno v3.5", "Suno v4", "Suno Studio"],
+      "founded_year": 2022,
+      "employee_count": 50
+    },
+    {
+      "canonical_name": "Udio",
+      "aliases": ["Udio AI", "Uncharted Labs", "Uncharted Labs, Inc."],
+      "domains": ["udio.com"],
+      "primary_products": ["Udio v1.5", "Udio Music Generation"],
+      "founded_year": 2023,
+      "employee_count": 30
+    },
+    {
+      "canonical_name": "KREA AI",
+      "aliases": ["Krea", "Krea, Inc.", "Krea AI Inc."],
+      "domains": ["krea.ai"],
+      "primary_products": ["Realtime Generation", "Enhancer", "Video Generation"],
+      "founded_year": 2022,
+      "employee_count": 25
+    },
+    {
+      "canonical_name": "Cognition AI",
+      "aliases": ["Cognition", "Cognition Labs", "Cognition Labs, Inc."],
+      "domains": ["cognition.ai"],
+      "primary_products": ["Devin", "Devin AI Software Engineer"],
+      "founded_year": 2023,
+      "employee_count": 35
+    },
+    {
+      "canonical_name": "Factory AI",
+      "aliases": ["Factory", "Factory.ai", "Factory Inc."],
+      "domains": ["factory.ai"],
+      "primary_products": ["Droid Code Automation", "Code Review Droid"],
+      "founded_year": 2023,
+      "employee_count": 30
+    },
+    {
+      "canonical_name": "Decagon",
+      "aliases": ["Decagon AI", "Decagon, Inc."],
+      "domains": ["decagon.ai"],
+      "primary_products": ["Decagon Agent", "Decagon Voice Support"],
+      "founded_year": 2023,
+      "employee_count": 45
+    },
+    {
+      "canonical_name": "Sierra",
+      "aliases": ["Sierra Technologies, Inc.", "Sierra AI", "Sierra Agents"],
+      "domains": ["sierra.ai"],
+      "primary_products": ["Sierra Conversational Agent Platform"],
+      "founded_year": 2023,
+      "employee_count": 70
+    },
+    {
+      "canonical_name": "Abridge",
+      "aliases": ["Abridge AI Inc.", "Abridge AI, Inc.", "Abridge Clinical AI"],
+      "domains": ["abridge.com"],
+      "primary_products": ["Clinical Conversation AI", "Abridge Note Generator"],
+      "founded_year": 2018,
+      "employee_count": 180
+    },
+    {
+      "canonical_name": "Hippocratic AI",
+      "aliases": ["Hippocratic", "Hippocratic AI, Inc."],
+      "domains": ["hippocraticai.com"],
+      "primary_products": ["Safety-First Healthcare LLM", "Chronic Care Manager"],
+      "founded_year": 2023,
+      "employee_count": 95
+    },
+    {
+      "canonical_name": "Baseten",
+      "aliases": ["Baseten, Inc.", "Baseten Inc.", "Baseten AI"],
+      "domains": ["baseten.co"],
+      "primary_products": ["Truss Model Packaging", "Model Inference Engine"],
+      "founded_year": 2019,
+      "employee_count": 65
+    },
+    {
+      "canonical_name": "Modal Labs",
+      "aliases": ["Modal", "Modal Labs, Inc.", "Modal Compute"],
+      "domains": ["modal.com"],
+      "primary_products": ["Modal Serverless Cloud", "Modal GPU Runners"],
+      "founded_year": 2021,
+      "employee_count": 40
+    },
+    {
+      "canonical_name": "Anyscale",
+      "aliases": ["Anyscale, Inc.", "Anyscale Inc.", "Ray Project"],
+      "domains": ["anyscale.com"],
+      "primary_products": ["Ray Core", "Anyscale Endpoints", "Ray Train"],
+      "founded_year": 2019,
+      "employee_count": 220
+    },
+    {
+      "canonical_name": "Weights & Biases",
+      "aliases": ["WandB", "W&B", "Weights and Biases", "Weights & Biases, Inc."],
+      "domains": ["wandb.ai"],
+      "primary_products": ["W&B Models", "W&B Weave", "W&B Sweeps"],
+      "founded_year": 2017,
+      "employee_count": 340
+    },
+    {
+      "canonical_name": "DeepL",
+      "aliases": ["DeepL SE", "DeepL GmbH", "DeepL Translate"],
+      "domains": ["deepl.com"],
+      "primary_products": ["DeepL Pro", "DeepL Write", "DeepL Voice"],
+      "founded_year": 2017,
+      "employee_count": 1000
+    },
+    {
+      "canonical_name": "Physical Intelligence",
+      "aliases": ["pi", "Physical Intelligence, Inc.", "pi.ai Robotics"],
+      "domains": ["physicalintelligence.company"],
+      "primary_products": ["pi-0 Generalist Robot Policy", "Physical VLM"],
+      "founded_year": 2024,
+      "employee_count": 30
+    },
+    {
+      "canonical_name": "World Labs",
+      "aliases": ["World Labs, Inc.", "WorldLabs", "Fei-Fei Li World Labs"],
+      "domains": ["worldlabs.ai"],
+      "primary_products": ["Spatial Intelligence Foundation Models"],
+      "founded_year": 2024,
+      "employee_count": 25
+    }
+  ]
+}
