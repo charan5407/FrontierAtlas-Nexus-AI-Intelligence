@@ -278,3 +278,4 @@ class StartupsCrawler:
 
 
 default_startups_crawler = StartupsCrawler(target_count=1000)
+

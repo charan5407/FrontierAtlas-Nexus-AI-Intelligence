@@ -56,3 +56,4 @@ def test_html_meta_date_extraction():
     dt, method = engine.extract_date_from_html(sample_html)
     assert dt is not None
     assert "article:published_time" in method
+

@@ -423,3 +423,4 @@ def generate_architecture_pdf(output_path: str = "architecture.pdf"):
 
 if __name__ == "__main__":
     generate_architecture_pdf("architecture.pdf")
+

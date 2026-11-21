@@ -83,3 +83,4 @@ class GoogleSheetsSync:
 if __name__ == "__main__":
     syncer = GoogleSheetsSync()
     syncer.upload_to_google_sheet()
+

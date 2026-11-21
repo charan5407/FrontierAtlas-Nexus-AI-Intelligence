@@ -215,3 +215,4 @@ class AIJobsCrawler:
 
 
 default_jobs_crawler = AIJobsCrawler(max_hours_fresh=24)
+

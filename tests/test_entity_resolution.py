@@ -48,3 +48,4 @@ def test_audit_log_tracking():
     assert last_log.raw_name == "Scale AI, Inc."
     assert last_log.canonical_name == "Scale AI"
     assert last_log.confidence_score >= 0.95
+

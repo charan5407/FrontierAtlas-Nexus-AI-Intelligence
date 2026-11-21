@@ -47,3 +47,4 @@ def load_seed_entities() -> List[CanonicalEntity]:
             employee_count=item.get("employee_count")
         ))
     return entities
+
