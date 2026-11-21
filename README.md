@@ -226,8 +226,9 @@ python -m src.pipeline.ingestion_engine
 ### 2. Launch the Interactive Visual Dashboard
 To start the industry-grade mission control web application:
 ```bash
-streamlit run dashboard/app.py
+python -m streamlit run dashboard/app.py
 ```
+*(Or double-click `run_dashboard.bat` on Windows)*
 *Opens at `http://localhost:8501` featuring:*
 - **Mission Control**: Live KPI telemetry & vertical volume charts.
 - **Entity Sandbox**: Interactive test console for canonical entity resolution.
@@ -370,3 +371,4 @@ To submit your Data Output via a public Google Sheet link:
 
 Developed for the **GraphOne / FrontierAtlas AI Engineer Assessment**.  
 Architected with high ownership, zero hallucination constraints, and production rigor.
+
