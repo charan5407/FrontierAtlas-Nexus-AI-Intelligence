@@ -1059,17 +1059,36 @@ elif nav == "📐 Architecture & Production PDF":
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # PDF Download & Rebuild
-    if PDF_PATH.exists():
-        st.success(f"Verified architecture.pdf exists ({PDF_PATH.stat().st_size / 1024:.1f} KB &bull; Exactly 3 Pages).")
-        with open(PDF_PATH, "rb") as f:
-            st.download_button(
-                label="📄 Download architecture.pdf",
-                data=f,
-                file_name="architecture.pdf",
-                mime="application/pdf",
-                type="primary",
-                use_container_width=True
-            )
-    else:
-        st.error("architecture.pdf not found. Run python src/docs/generate_pdf.py to compile it.")
+    # PDF Downloads
+    MASTER_PDF = BASE_DIR / "FrontierAtlas_Nexus_Master_Project_Report.pdf"
+    
+    col_pdf1, col_pdf2 = st.columns(2)
+    with col_pdf1:
+        if PDF_PATH.exists():
+            st.success(f"✓ architecture.pdf ({PDF_PATH.stat().st_size / 1024:.1f} KB &bull; Exactly 3 Pages)")
+            with open(PDF_PATH, "rb") as f:
+                st.download_button(
+                    label="📄 Download architecture.pdf (3-Page Spec)",
+                    data=f,
+                    file_name="architecture.pdf",
+                    mime="application/pdf",
+                    type="primary",
+                    use_container_width=True
+                )
+        else:
+            st.error("architecture.pdf not found. Run python src/docs/generate_pdf.py")
+
+    with col_pdf2:
+        if MASTER_PDF.exists():
+            st.success(f"✓ Master Project Report ({MASTER_PDF.stat().st_size / 1024:.1f} KB &bull; Complete 5-Page Guide)")
+            with open(MASTER_PDF, "rb") as f:
+                st.download_button(
+                    label="📚 Download Complete Project Report (PDF)",
+                    data=f,
+                    file_name="FrontierAtlas_Nexus_Master_Project_Report.pdf",
+                    mime="application/pdf",
+                    type="secondary",
+                    use_container_width=True
+                )
+        else:
+            st.info("Run python -m src.docs.generate_master_report to build the Master Report.")
