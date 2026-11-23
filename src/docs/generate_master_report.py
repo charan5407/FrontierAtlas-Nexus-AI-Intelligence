@@ -601,3 +601,4 @@ def build_master_report(output_path: str = "FrontierAtlas_Nexus_Master_Project_R
 
 if __name__ == "__main__":
     build_master_report()
+
