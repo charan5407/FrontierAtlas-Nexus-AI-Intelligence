@@ -1061,14 +1061,15 @@ elif nav == "📐 Architecture & Production PDF":
 
     # PDF Downloads
     MASTER_PDF = BASE_DIR / "FrontierAtlas_Nexus_Master_Project_Report.pdf"
+    TECH_REPORT_PDF = BASE_DIR / "FrontierAtlas_Nexus_Technical_Report.pdf"
     
-    col_pdf1, col_pdf2 = st.columns(2)
+    col_pdf1, col_pdf2, col_pdf3 = st.columns(3)
     with col_pdf1:
         if PDF_PATH.exists():
-            st.success(f"✓ architecture.pdf ({PDF_PATH.stat().st_size / 1024:.1f} KB &bull; Exactly 3 Pages)")
+            st.success(f"✓ architecture.pdf ({PDF_PATH.stat().st_size / 1024:.1f} KB &bull; 3 Pages)")
             with open(PDF_PATH, "rb") as f:
                 st.download_button(
-                    label="📄 Download architecture.pdf (3-Page Spec)",
+                    label="📄 Download architecture.pdf",
                     data=f,
                     file_name="architecture.pdf",
                     mime="application/pdf",
@@ -1079,11 +1080,26 @@ elif nav == "📐 Architecture & Production PDF":
             st.error("architecture.pdf not found. Run python src/docs/generate_pdf.py")
 
     with col_pdf2:
+        if TECH_REPORT_PDF.exists():
+            st.success(f"✓ Technical Paper ({TECH_REPORT_PDF.stat().st_size / 1024:.1f} KB &bull; Times-Roman)")
+            with open(TECH_REPORT_PDF, "rb") as f:
+                st.download_button(
+                    label="📑 Download Technical Paper (PDF)",
+                    data=f,
+                    file_name="FrontierAtlas_Nexus_Technical_Report.pdf",
+                    mime="application/pdf",
+                    type="secondary",
+                    use_container_width=True
+                )
+        else:
+            st.info("Run python -m src.docs.generate_academic_report")
+
+    with col_pdf3:
         if MASTER_PDF.exists():
-            st.success(f"✓ Master Project Report ({MASTER_PDF.stat().st_size / 1024:.1f} KB &bull; Complete 5-Page Guide)")
+            st.success(f"✓ Master Report ({MASTER_PDF.stat().st_size / 1024:.1f} KB &bull; 5 Pages)")
             with open(MASTER_PDF, "rb") as f:
                 st.download_button(
-                    label="📚 Download Complete Project Report (PDF)",
+                    label="📚 Download Master Guide (PDF)",
                     data=f,
                     file_name="FrontierAtlas_Nexus_Master_Project_Report.pdf",
                     mime="application/pdf",
@@ -1091,4 +1107,4 @@ elif nav == "📐 Architecture & Production PDF":
                     use_container_width=True
                 )
         else:
-            st.info("Run python -m src.docs.generate_master_report to build the Master Report.")
+            st.info("Run python -m src.docs.generate_master_report")
